@@ -19,7 +19,7 @@ Want fast in-memory port scanning? Use Probe-NG!
 Use ":" to separate ranges and "," to separate lists.  
 Singular ports or IPs can be used as well, as with the original sa-probe.  
   
-Note: "(flags)" refers to Sliver's usual set of execution flags, such `-t [timeout]`.  
+Note: "(flags)" refers to Sliver's usual set of execution flags, such as `-t [timeout]`.  
   
 <b>Examples:</b>  
 ![Pic 1](examples/1.png)
