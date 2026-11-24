@@ -1,0 +1,38 @@
+{
+    "name": "probe-ng",
+    "version": "0.0.1",
+    "command_name": "probe-ng",
+    "extension_author": "delta-plus",
+    "original_author": "delta-plus",
+    "repo_url": "https://github.com/sliverarmory/probe-ng",
+    "help": "Upgraded sa-probe. Takes lists and ranges of ports and IPs. Use ':' to separate ranges and ',' to separate lists.",
+    "long_help": "Usage: sa-probe -i [IP(s)] -p [port(s)]",
+    "depends_on": "coff-loader",
+    "entrypoint": "go",
+    "files": [
+        {
+            "os": "windows",
+            "arch": "amd64",
+            "path": "probe-ng.x64.o"
+        },
+        {
+            "os": "windows",
+            "arch": "386",
+            "path": "probe-ng.x86.o"
+        }
+    ],
+    "arguments": [
+        {
+            "name": "i",
+            "desc": "IPs",
+            "type": "string",
+            "optional": false
+        },
+        {
+            "name": "p",
+            "desc": "Ports",
+            "type": "string",
+            "optional": false
+        }
+    ]
+}

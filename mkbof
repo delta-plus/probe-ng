@@ -1,0 +1,12 @@
+#!/bin/bash
+
+make
+
+mv probe-ng.x64.o probe-ng
+mv probe-ng.x86.o probe-ng
+
+if [[ -d ~/.sliver-client/extensions/probe-ng ]]; then
+  rm -r ~/.sliver-client/extensions/probe-ng
+fi
+
+cp -r probe-ng ~/.sliver-client/extensions
