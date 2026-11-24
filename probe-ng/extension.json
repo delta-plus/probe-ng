@@ -5,7 +5,7 @@
     "extension_author": "delta-plus",
     "original_author": "delta-plus",
     "repo_url": "https://github.com/sliverarmory/probe-ng",
-    "help": "Upgraded sa-probe. Takes lists and ranges of ports and IPs. Use ':' to separate ranges and ',' to separate lists.",
+    "help": "Upgraded sa-probe. Takes lists and ranges of ports and IPs. Use \":\" to separate ranges and \",\" to separate lists.",
     "long_help": "Usage: sa-probe -i [IP(s)] -p [port(s)]",
     "depends_on": "coff-loader",
     "entrypoint": "go",

@@ -16,7 +16,7 @@ Want fast in-memory port scanning? Use Probe-NG!
 <b>Usage:</b>  
 `probe-ng (flags) -- -i [IP(s)] -p [port(s)]`  
   
-Use ':' to separate ranges and ',' to separate lists.  
+Use ":" to separate ranges and "," to separate lists.  
 Singular ports or IPs can be used as well, as with the original sa-probe.  
   
 Note: "(flags)" refers to Sliver's usual set of execution flags, such `-t [timeout]`.  
